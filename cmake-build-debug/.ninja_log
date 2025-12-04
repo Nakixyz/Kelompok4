@@ -1,0 +1,7 @@
+# ninja log v6
+1291	1512	7864802161308591	Tampilan_Login_Super_Admin.exe	19f6a79e7c1124ca
+42	1291	7864802148819592	CMakeFiles/Tampilan_Login_Super_Admin.dir/main.c.obj	eff6a347d63a2c10
+10	503	7865382917584780	build.ninja	abae45a6e204d367
+21	212	7865383147828370	CMakeFiles/Tampilan_Login_Super_Admin.dir/main.c.obj	eff6a347d63a2c10
+29	942	7865383147912154	CMakeFiles/Tampilan_Login_Super_Admin.dir/Console.c.obj	4405a4472339c214
+942	1279	7865383157048482	Tampilan_Login_Super_Admin.exe	17016d702c338a4e
