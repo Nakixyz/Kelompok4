@@ -2,7 +2,11 @@
 #include <string.h>
 #include <conio.h>
 
-#include "Console.h"
+#include "console.h"
+#include "karyawan.h"
+
+#define MAX_USERNAME 50
+#define MAX_PASSWORD 50
 
 #define SUPERADMIN_USER "superadmin"
 #define SUPERADMIN_PASS "superadmin"
@@ -16,26 +20,24 @@ int main() {
     int exitProgram = 0;   // flag kalau user tekan 0 di login
 
     initConsole();
+    initKaryawan();        // load data karyawan dari file
 
     while (attempts < maxAttempts && !berhasil && !exitProgram) {
         drawLoginLayout();
 
-        // username
         gotoxy(gUserCol, gUserRow);
         printf("                                        ");
         gotoxy(gUserCol, gUserRow);
 
-        // input username dengan deteksi tombol '0' untuk keluar
         inputTextAt(gUserCol, gUserRow, MAX_USERNAME, username, &exitProgram);
 
-        // Kalau user menekan '0' → keluar dari loop
         if (exitProgram) {
             break;
         }
 
-        // password
         gotoxy(gPassCol, gPassRow);
         printf("                                        ");
+
         inputPasswordAt(gPassCol, gPassRow, MAX_PASSWORD, password);
 
         if (strcmp(username, SUPERADMIN_USER) == 0 &&

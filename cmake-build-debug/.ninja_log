@@ -1,7 +1,15 @@
 # ninja log v6
-1291	1512	7864802161308591	Tampilan_Login_Super_Admin.exe	19f6a79e7c1124ca
-42	1291	7864802148819592	CMakeFiles/Tampilan_Login_Super_Admin.dir/main.c.obj	eff6a347d63a2c10
-10	503	7865382917584780	build.ninja	abae45a6e204d367
-21	212	7865383147828370	CMakeFiles/Tampilan_Login_Super_Admin.dir/main.c.obj	eff6a347d63a2c10
-29	942	7865383147912154	CMakeFiles/Tampilan_Login_Super_Admin.dir/Console.c.obj	4405a4472339c214
-942	1279	7865383157048482	Tampilan_Login_Super_Admin.exe	17016d702c338a4e
+179	397	7865706136387093	Tampilan_Login_Super_Admin.exe	17016d702c338a4e
+8	178	7865706134667248	CMakeFiles/Tampilan_Login_Super_Admin.dir/main.c.obj	eff6a347d63a2c10
+5	1363	7865698859622953	CMakeFiles/Tampilan_Login_Super_Admin.dir/Console.c.obj	4405a4472339c214
+10	503	7866005991736035	build.ninja	abae45a6e204d367
+4	110	7866007107553481	CMakeFiles/Tampilan_Login_Super_Admin.dir/main.c.obj	eff6a347d63a2c10
+18	138	7866007107695571	CMakeFiles/Tampilan_Login_Super_Admin.dir/karyawan.c.obj	7452404c212db853
+11	886	7866007107623461	CMakeFiles/Tampilan_Login_Super_Admin.dir/Console.c.obj	4405a4472339c214
+886	1225	7866007116373308	Tampilan_Login_Super_Admin.exe	99c7db04999a7899
+4	846	7866009806904418	CMakeFiles/Tampilan_Login_Super_Admin.dir/Console.c.obj	4405a4472339c214
+847	956	7866009815326202	Tampilan_Login_Super_Admin.exe	99c7db04999a7899
+96	275	7866051111151453	CMakeFiles/Tampilan_Login_Super_Admin.dir/karyawan.c.obj	7452404c212db853
+4	378	7866051192909694	Tampilan_Login_Super_Admin.exe	99c7db04999a7899
+5	133	7866063517213457	CMakeFiles/Tampilan_Login_Super_Admin.dir/karyawan.c.obj	7452404c212db853
+4	125	7866063626733544	Tampilan_Login_Super_Admin.exe	99c7db04999a7899

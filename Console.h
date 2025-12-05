@@ -1,17 +1,19 @@
 #ifndef CONSOLE_H
 #define CONSOLE_H
 
-// Batas panjang username & password
-#define MAX_USERNAME 50
-#define MAX_PASSWORD 50
-
 // Ukuran console aktual
 extern int gCols;
 extern int gRows;
 
-// Posisi input username & password di layar
-extern int gUserCol, gUserRow;
-extern int gPassCol, gPassRow;
+// Posisi input login
+extern int gUserCol;
+extern int gUserRow;
+extern int gPassCol;
+extern int gPassRow;
+
+// Posisi input pilihan menu superadmin
+extern int gMenuPromptCol;
+extern int gMenuPromptRow;
 
 // ---------- UTIL KONSOLE ----------
 void clearScreen(void);
@@ -25,8 +27,9 @@ void clearInputBuffer(void);
 void inputTextAt(int col, int row, int maxLen, char *buffer, int *exitFlag);
 void inputPasswordAt(int col, int row, int maxLen, char *password);
 
-// ---------- UI / MENU ----------
-void drawLoginLayout(void);
-void tampilkanMenuUtama(void);
+// ---------- UI ----------
+void drawLoginLayout(void);             // tampilan login
+void drawSuperAdminMenuLayout(void);    // tampilan menu superadmin
+void tampilkanMenuUtama(void);          // loop menu superadmin
 
 #endif // CONSOLE_H
